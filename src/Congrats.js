@@ -7,7 +7,7 @@ import React from 'react'
  */
 function Congrats({success}) {
     return (
-        <div />
+        <div data-test="component-congrats" />
     )
 }
 
