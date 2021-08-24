@@ -16,7 +16,7 @@ const setup = (props={}) => {
 
 describe('basic render', () => {
     test('renders without error', () => {
-        const wrapper = setup({success: true});
+        const wrapper = setup({success: false});
         const component = findByTextAttr(wrapper ,'component-congrats');
         expect(component.exists()).toBe(true)
     });
